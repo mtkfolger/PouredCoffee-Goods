@@ -1,5 +1,4 @@
-#Poured Coffee & Goods
----
+# Poured Coffee & Goods
 
 **Description**
 >This application is a simple ecommerce platform where users can login and purchase coffee and coffee related accessories. 
