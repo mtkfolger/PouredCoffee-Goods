@@ -23,8 +23,8 @@
 >This application is perfect for coffee lovers who love everything about coffee culture. 
 
 **License** <a name="License"></a>
->This project is convered under the MIT License <br><br>![Apache Logo](https://badgen.net/badge/Licencse/MIT/red?icon=github) License.
 
+>This project is convered under the MIT License <br><br>![Apache Logo](https://badgen.net/badge/Licencse/MIT/red?icon=github) License.
 
 **Contribution Guidelines** <a name="Contribution"></a>
 >To contribute to this project, please see the contact information below
@@ -42,4 +42,5 @@
 >mtkfolger@gmail.com
 
 ---
+
 *This readme template is © Michael Folger - 2021*
