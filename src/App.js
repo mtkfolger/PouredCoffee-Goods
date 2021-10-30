@@ -1,7 +1,7 @@
-import './App.css';
+// import './App.css';
 import ProductsList from './components/ProductList';
 import "./style.css"
-import { Grid, Card } from "@material-ui/core";
+import { Grid, Card } from "@mui/material/";
 import CardMedia from '@mui/material/CardMedia';
 
 function App() {
