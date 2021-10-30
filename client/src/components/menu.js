@@ -41,9 +41,6 @@ export default function BasicMenu() {
         <MenuItem onClick={handleClose}>My Cart</MenuItem>
         <MenuItem onClick={handleClose}>My Profile</MenuItem>
       </Menu>
-      <Typography sx={{ minWidth: 100 }}>Contact</Typography>)
     </div>
   );
-
-  
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import BasicMenu from '../../client/src/components/menu.js';
+import BasicMenu from '../src/components/menu.js';
 import "./style.css"
 ReactDOM.render(
   <React.StrictMode>
