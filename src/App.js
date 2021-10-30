@@ -1,8 +1,11 @@
+import './App.css';
+import ProductsList from './components/ProductList';
 import "./style.css"
 import { Grid, Card } from "@material-ui/core";
 import CardMedia from '@mui/material/CardMedia';
 
 function App() {
+
   return (
     <div className="App">
       <Grid container justify="left" alignItems="left" direction="column" fontSize="larger">
@@ -17,6 +20,7 @@ function App() {
           alt= "coffee_pour"
         ></CardMedia>
         </Card>
+        <ProductsList />
     </div>
   );
 }
