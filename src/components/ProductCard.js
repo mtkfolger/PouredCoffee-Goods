@@ -25,10 +25,14 @@ export default function ProductCard(props) {
                 <Typography variant="body2" color="text.secondary">
                   {product.description}
                 </Typography>
+        
               </CardContent>
               <CardActions>
                 <Button size="small">Add To Cart</Button>
                 {/* <Button size="small">Add To Wishlist</Button> */}
+                <Typography variant="body2" color="text.secondary">
+                  ${product.price}
+                </Typography>
               </CardActions>
             </Card>
         ))}
