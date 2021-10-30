@@ -1,0 +1,6 @@
+.basic-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: larger;
+}
