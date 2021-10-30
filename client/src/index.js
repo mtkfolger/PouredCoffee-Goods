@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Header from './Header.js';
+import BasicMenu from '../../client/src/components/menu.js';
+import "./style.css"
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
+    <BasicMenu class="basic-menu"/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
