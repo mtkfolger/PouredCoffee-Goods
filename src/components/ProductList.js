@@ -1,12 +1,12 @@
 import React from "react";
+import ProductCard from "./ProductCard"
 import Products from "./Products"
 
-function ProductList(props) {
+function ProductList() {
     return (
         <div>
-            <h2>{props.meme}</h2>
-            <Products
-            ></Products>
+            <ProductCard products={Products}
+            ></ProductCard>
         </div>
     )
 }

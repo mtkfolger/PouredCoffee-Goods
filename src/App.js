@@ -2,12 +2,11 @@ import './App.css';
 import ProductsList from './components/ProductList';
 
 function App() {
-  const chungus = "bungus";
 
   return (
     <div className="App">
-      <h1>E-Chungus</h1>
-      <ProductsList meme={chungus}/>
+      <h1>Poured Coffee and Goods</h1>
+      <ProductsList />
     </div>
   );
 }
