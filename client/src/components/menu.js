@@ -41,6 +41,14 @@ export default function BasicMenu() {
         <MenuItem onClick={handleClose}>My Cart</MenuItem>
         <MenuItem onClick={handleClose}>My Profile</MenuItem>
       </Menu>
+
+     <nav>
+        <ul>
+          <li> Login </li>
+          <li> Contact </li>
+        </ul>
+      </nav>
+
     </div>
   );
 }

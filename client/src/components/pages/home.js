@@ -1,21 +1,20 @@
-import "./style.css"
-import { Grid, Card } from "@material-ui/core";
-import CardMedia from '@mui/material/CardMedia';
-import heroImage from "../src/coffee1.jpg";
+import { Grid } from "@material-ui/core";
 
-function Checkout() {
+
+
+function Home() {
   return (
     <div className="App">
       <Grid container justify="left" alignItems="left" direction="column" fontSize="larger">
         <h1>Poured || Coffee and Goods</h1>
-        <h2> HOME</h2>
           </Grid>
           
-    </div>
+
+   </div>
   );
 }
 
-export default Checkout;
+export default Home;
 
 
 
@@ -37,4 +36,16 @@ export default Checkout;
         </Card>
     </div> 
 
+    
+     <Card sx={{ maxWidth: 345 }}>
+        <CardMedia
+          component="img"
+          height="1020"
+          image={coffee1}
+          alt= "coffee_pour"
+        ></CardMedia>
+        </Card>
+    
+    
     */
+

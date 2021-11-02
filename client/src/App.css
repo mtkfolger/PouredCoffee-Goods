@@ -1,38 +1,120 @@
 .App {
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div{
+  max-width: 99vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+nav{
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgba(48, 48, 48, 0);
+  color: black;
   }
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-links{
+  width: 50%;
+  margin-right: 5%;
+  margin-left: 22%;
+  display: flex;
+  justify-content: right; 
+  align-items: center;
+  list-style: none;
+  color: black;
+  
+}
+
+.home-link{
+  display: flex;
+  padding: 2em;
+  margin: 2em;
+  color: black;
+}
+
+.about-link { 
+  display: flex;
+  padding: 2em;
+  margin: 2em;
+  color: black;
+}
+
+.shop-link {
+  display: flex;
+  padding: 2em;
+  margin: 2em;
+  color: black;
+}
+
+.logo {
+  max-height: 8vh;
+}
+
+.main-image{
+  width: 90vw;
+  height: 110vh;
+}
+
+.home-para {
+  display: flex;
+  font-weight: bold;
+  justify-content: start;
+  margin-left: 5%;
+  padding-right: 2em;
+}
+
+.link{
+  max-width: 90vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 2em;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  max-width: 25%;
+
+}
+
+.line {
+  width:90%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.card-content{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-left: 5%;
+  max-width: 25%;
+}
+
+.card-media{
+  display: flex;
+  width: 100vw;
+}
+
+.footer{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
