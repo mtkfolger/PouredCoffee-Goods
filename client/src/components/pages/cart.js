@@ -1,7 +1,6 @@
-import "./style.css"
-import { Grid, Card } from "@material-ui/core";
-import CardMedia from '@mui/material/CardMedia';
-import heroImage from "../src/coffee1.jpg";
+import { Grid } from "@material-ui/core";
+
+
 
 function Cart() {
   return (
