@@ -1,7 +1,8 @@
 import React from "react";
 import "../App.css";
 import CoffeeHero from '../../src/Poured.png';
-import MediaCard from "./products/product-card";
+import ProductCard from "./products/product-card";
+import Products from "../components/Products"
 
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
         
             <h2 className="home-para">Products</h2>
             <hr className="line"></hr>
-            <MediaCard />
+            <ProductCard products={Products}/>
     </div>
     );
 
