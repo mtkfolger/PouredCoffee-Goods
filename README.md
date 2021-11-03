@@ -17,7 +17,7 @@
 >[Questions](#Questions)
 
 **Installation Instructions** <a name="Installation"></a>
->To install this application run `npm i && npm start`
+>To install this application run `npm run develop`
 
 **Usage** <a name="Usage"></a>
 >This application is perfect for coffee lovers who love everything about coffee culture. 
