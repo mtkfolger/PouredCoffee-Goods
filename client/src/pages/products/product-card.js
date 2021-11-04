@@ -18,7 +18,7 @@ export default function ProductCard(props) {
           <CardMedia
             component="img"
             height="140"
-            // image={product.image}
+            image={product.image}
             alt={product.name} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
