@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Guatemala Beans",
+    "description": "Good Medium beans",
+    "price": 12,
+    "roast": "Medium",
+    "image": "http://localhost:3000/assests/goodbeans.png"
+  },
+  {
+    "name": "Kenya Beans",
+    "description": "Good Light Beans",
+    "price": 14,
+    "roast": "Light",
+    "image": "http://localhost:3000/assests/lightbeans.png"
+  },
+  {
+    "name": "Sumatra Beans",
+    "description": "Good Dark beans",
+    "price": 13,
+    "roast": "Dark",
+    "image": "http://localhost:3000/assests/darkbeans.png"
+  },
+  {
+    "name": "Kettle",
+    "description": "Good Kettle",
+    "price": 150,
+    "image": "http://localhost:3000/assests/kettle.png"
+  },
+  {
+    "name": "Hario Grinder",
+    "description": "Good Grinder",
+    "price": 30,
+    "image": "http://localhost:3000/assests/grinder.png"
+  },{
+    "name": "T-Shirt",
+    "description": "Good Shirt",
+    "price": 15,
+    "image": "http://localhost:3000/assests/tshirt.png"
+  },{
+    "name": "Bean Contianer",
+    "description": "Good Bean Container",
+    "price": 25,
+    "image": "http://localhost:3000/assests/beancontainer.png"
+  },{
+    "name": "Filters",
+    "description": "Good Filters",
+    "price": 7,
+    "image": "http://localhost:3000/assests/v60filters.png"
+  },{
+    "name": "Hario v60",
+    "description": "Good Pour Over",
+    "price": 22,
+    "image": "http://localhost:3000/assests/hariov60.png"
+  },{
+    "name": "Real Beans",
+    "description": "This is real beans",
+    "price": 500,
+    "image": "http://localhost:3000/assests/realbeans.png"
+  }
+]

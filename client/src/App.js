@@ -8,11 +8,20 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/home';
 import Footer from './pages/footer';
 
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: '/graphql',
+  cache: new InMemoryCache(),
+});
+
+console.log(client);
 
 function App() {
   return (
     
-    
+    <ApolloProvider client={client}>
+
     <Router>
 
       <div className="App">
@@ -27,6 +36,8 @@ function App() {
         <Footer />    
      </div>
     </Router>
+    </ApolloProvider>
+
   );
 }
 

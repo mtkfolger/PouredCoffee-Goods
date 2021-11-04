@@ -18,6 +18,14 @@ const productSchema = new Schema({
     type: String,
     required: false
   },
+  image: {
+    type: String,
+    required: false
+  },
+  stock: {
+    type: Number,
+    default: 10
+  },
 
 });
 
