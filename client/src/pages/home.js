@@ -18,9 +18,6 @@ function Home() {
     return (
     <div>
       <img className="main-image" src={CoffeeHero} alt="Coffee-Pour"></img>      
-      <h2 className="home-para">Products</h2>
-      <hr className="line"></hr>
-      <ProductCard products={productList}/>
     </div>
     );   
 }

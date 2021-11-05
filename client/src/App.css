@@ -10,7 +10,7 @@ nav{
   display: flex;
   margin-left: 5%;
   align-items: center;
-  min-height: 10vh;
+  height: 9vh;
   background-color: rgba(48, 48, 48, 0);
   color: black;
   }
@@ -58,8 +58,13 @@ nav{
 }
 
 .main-image{
-  width: 90vw;
-  height: 110vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about-image{
+  width: 45vw;
+  height:50vh;
 }
 
 .home-para {
@@ -113,8 +118,8 @@ nav{
 
 .p {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 10%;
+  justify-content: start;
+  text-align: start;
+  margin-left: 5%;
   margin-right: 10%;
 }

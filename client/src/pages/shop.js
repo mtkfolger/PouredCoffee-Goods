@@ -1,34 +1,27 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import "../App.css";
-import { Link } from "react-router-dom";
+import CoffeeHero from '../../src/Poured.png';
+import ProductCard from "./products/product-card";
+
+import { useQuery } from '@apollo/client';
+import { QUERY_PRODUCTS } from "../utils/queries";
 
 function Shop() {
 
-  useEffect(() => {
-    fetchItems();
-  }, []);
+  const { loading, data } = useQuery(QUERY_PRODUCTS, {
+    fetchPolicy: "no-cache"
+  });
+  const productList = data?.Product || [];
+  console.log(data);
+  console.log(productList);
 
-  const [items, setItems] = useState([]);
-
-  const fetchItems = async () => {
-    const data = await fetch('https://api.sampleapis.com/coffee/hot');
-
-    const items = await data.json();
-
-    console.log(items);
-    setItems(items);
-  };
-
-  return (
-    <div>
-      <h1>Products</h1>
-        {items.map(item => (
-          <h1 key={item.title}>
-            <Link to={`/shop/${item.id}`}>{item.title}</Link>
-          </h1>
-        ))}
+    return (
+    <div>  
+      <h2 className="home-para">Products</h2>
+      <hr className="line"></hr>
+      <ProductCard products={productList}/>
     </div>
-  );
+    );   
 }
 
 export default Shop;
