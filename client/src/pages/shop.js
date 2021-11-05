@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import CoffeeHero from '../../src/Poured.png';
 import ProductCard from "./products/product-card";
 
 import { useQuery } from '@apollo/client';
