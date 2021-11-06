@@ -4,7 +4,8 @@ import "../App.css";
 function Cart() {
   return (
     <div>
-        <h1>Cart Page</h1>
+              <h2 className="home-para">Your Cart</h2>
+      <hr className="line"></hr>
     </div>
   );
 }

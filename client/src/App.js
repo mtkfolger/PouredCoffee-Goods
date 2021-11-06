@@ -7,6 +7,9 @@ import ItemDetail from './pages/itemDetail';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/home';
 import Footer from './pages/footer';
+import Login from './pages/login';
+import Register from './pages/register';
+import User from './pages/userProfile';
 
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
@@ -30,6 +33,9 @@ function App() {
           <Route path="/" exact component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/products" exact component={Shop}/>
+          <Route path="/login" exact component={Login}/>
+          <Route path="/register" exact component={Register}/>
+          <Route path="/profile" exact component={User}/>
           <Route path="/Cart" exact component={Cart}/>
           <Route path="/shop/:id" component={ItemDetail}/>
         </Switch>

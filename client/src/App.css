@@ -10,7 +10,7 @@ nav{
   display: flex;
   margin-left: 5%;
   align-items: center;
-  min-height: 10vh;
+  height: 9vh;
   background-color: rgba(48, 48, 48, 0);
   color: black;
   }
@@ -29,7 +29,6 @@ nav{
   align-items: center;
   list-style: none;
   color: black;
-  
 }
 
 .home-link{
@@ -58,8 +57,13 @@ nav{
 }
 
 .main-image{
+  width: 100vw;
+  height: 100vh;
+}
+
+.about-image{
   width: 90vw;
-  height: 110vh;
+  height: 60vh;
 }
 
 .home-para {
@@ -68,6 +72,7 @@ nav{
   justify-content: start;
   margin-left: 5%;
   padding-right: 2em;
+  color: black;
 }
 
 .link{
@@ -113,8 +118,23 @@ nav{
 
 .p {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 10%;
+  justify-content: start;
+  text-align: start;
+  margin-left: 5%;
   margin-right: 10%;
+}
+
+.h3{
+  font-size: x-small;
+  margin-bottom: 2em;
+}
+
+.button{
+  display: flex;
+  color: white;
+}
+
+.box{
+  margin-bottom: 1em;
+  
 }
