@@ -4,57 +4,57 @@
     "description": "Lime-like acidity is paired with a rich velvety body and strawberry preserve notes, cooling sweet like honey.",
     "price": 12,
     "roast": "Medium",
-    "image": "http://localhost:3000/assests/goodbeans.png"
+    "image": "./assests/goodbeans.png"
   },
   {
     "name": "Costa Rica Beans",
     "description": "Grown on a high altitude farm in the shade of many tropical and citrus trees, this honey processed coffee has sweet citrus notes in the beginning with balanced acidity and a clean finish.",
     "price": 14,
     "roast": "Light",
-    "image": "http://localhost:3000/assests/lightbeans.png"
+    "image": "./assests/lightbeans.png"
   },
   {
     "name": "Sumatra Beans",
     "description": "Our darkest roast, this coffee has a full body with robust and deep dark chocolate tasting notes.  A smooth flavor profile for a coffee drinker who prefers a rich and bold coffee.",
     "price": 13,
     "roast": "Dark",
-    "image": "http://localhost:3000/assests/darkbeans.png"
+    "image": "./assests/darkbeans.png"
   },
   {
     "name": "Electric Kettle",
     "description": "Designed for pour overs, this kettle includes variable temperature control and an ergonomic design",
     "price": 150,
-    "image": "http://localhost:3000/assests/kettle.png"
+    "image": "./assests/kettle.png"
   },
   {
     "name": "Hario Grinder",
     "description": "This hand grinder is a great bang for your buck",
     "price": 30,
-    "image": "http://localhost:3000/assests/grinder.png"
+    "image": "./assests/grinder.png"
   },{
     "name": "T-Shirt",
     "description": "Good Shirt",
     "price": 15,
-    "image": "http://localhost:3000/assests/tshirt.png"
+    "image": "./assests/tshirt.png"
   },{
     "name": "Vacuum Contianer",
     "description": "Take the hassle (and oxygen) out of storing coffee",
     "price": 25,
-    "image": "http://localhost:3000/assests/beancontainer.png"
+    "image": "./assests/beancontainer.png"
   },{
     "name": "ilters",
     "description": "Filters designed to fit in pour over brewer.",
     "price": 7,
-    "image": "http://localhost:3000/assests/v60filters.png"
+    "image": "./assests/v60filters.png"
   },{
     "name": "Pour Over Brewer",
     "description": "One of the most simple and best brewers out there.",
     "price": 22,
-    "image": "http://localhost:3000/assests/hariov60.png"
+    "image": "./assests/hariov60.png"
   },{
     "name": "Real Beans",
     "description": "This is real beans",
     "price": 500,
-    "image": "http://localhost:3000/assests/realbeans.png"
+    "image": "./assests/realbeans.png"
   }
 ]
