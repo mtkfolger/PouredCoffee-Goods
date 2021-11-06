@@ -42,7 +42,7 @@
     "price": 25,
     "image": "./assests/beancontainer.png"
   },{
-    "name": "ilters",
+    "name": "Filters",
     "description": "Filters designed to fit in pour over brewer.",
     "price": 7,
     "image": "./assests/v60filters.png"
