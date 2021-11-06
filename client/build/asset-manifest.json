@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd3d0d0d.chunk.css",
+    "main.js": "/static/js/main.335b87db.chunk.js",
+    "main.js.map": "/static/js/main.335b87db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.572193f1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.572193f1.js.map",
+    "static/js/2.04b343b5.chunk.js": "/static/js/2.04b343b5.chunk.js",
+    "static/js/2.04b343b5.chunk.js.map": "/static/js/2.04b343b5.chunk.js.map",
+    "static/js/3.d5c9d447.chunk.js": "/static/js/3.d5c9d447.chunk.js",
+    "static/js/3.d5c9d447.chunk.js.map": "/static/js/3.d5c9d447.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fd3d0d0d.chunk.css.map": "/static/css/main.fd3d0d0d.chunk.css.map",
+    "static/js/2.04b343b5.chunk.js.LICENSE.txt": "/static/js/2.04b343b5.chunk.js.LICENSE.txt",
+    "static/media/Poured.087488ab.png": "/static/media/Poured.087488ab.png",
+    "static/media/coffee.6fa8010d.png": "/static/media/coffee.6fa8010d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.572193f1.js",
+    "static/js/2.04b343b5.chunk.js",
+    "static/css/main.fd3d0d0d.chunk.css",
+    "static/js/main.335b87db.chunk.js"
+  ]
+}
