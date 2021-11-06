@@ -1,34 +1,34 @@
 [
   {
     "name": "Guatemala Beans",
-    "description": "Good Medium beans",
+    "description": "Lime-like acidity is paired with a rich velvety body and strawberry preserve notes, cooling sweet like honey.",
     "price": 12,
     "roast": "Medium",
     "image": "http://localhost:3000/assests/goodbeans.png"
   },
   {
-    "name": "Kenya Beans",
-    "description": "Good Light Beans",
+    "name": "Costa Rica Beans",
+    "description": "Grown on a high altitude farm in the shade of many tropical and citrus trees, this honey processed coffee has sweet citrus notes in the beginning with balanced acidity and a clean finish.",
     "price": 14,
     "roast": "Light",
     "image": "http://localhost:3000/assests/lightbeans.png"
   },
   {
     "name": "Sumatra Beans",
-    "description": "Good Dark beans",
+    "description": "Our darkest roast, this coffee has a full body with robust and deep dark chocolate tasting notes.  A smooth flavor profile for a coffee drinker who prefers a rich and bold coffee.",
     "price": 13,
     "roast": "Dark",
     "image": "http://localhost:3000/assests/darkbeans.png"
   },
   {
-    "name": "Kettle",
-    "description": "Good Kettle",
+    "name": "Electric Kettle",
+    "description": "Designed for pour overs, this kettle includes variable temperature control and an ergonomic design",
     "price": 150,
     "image": "http://localhost:3000/assests/kettle.png"
   },
   {
     "name": "Hario Grinder",
-    "description": "Good Grinder",
+    "description": "This hand grinder is a great bang for your buck",
     "price": 30,
     "image": "http://localhost:3000/assests/grinder.png"
   },{
@@ -37,18 +37,18 @@
     "price": 15,
     "image": "http://localhost:3000/assests/tshirt.png"
   },{
-    "name": "Bean Contianer",
-    "description": "Good Bean Container",
+    "name": "Vacuum Contianer",
+    "description": "Take the hassle (and oxygen) out of storing coffee",
     "price": 25,
     "image": "http://localhost:3000/assests/beancontainer.png"
   },{
-    "name": "Filters",
-    "description": "Good Filters",
+    "name": "ilters",
+    "description": "Filters designed to fit in pour over brewer.",
     "price": 7,
     "image": "http://localhost:3000/assests/v60filters.png"
   },{
-    "name": "Hario v60",
-    "description": "Good Pour Over",
+    "name": "Pour Over Brewer",
+    "description": "One of the most simple and best brewers out there.",
     "price": 22,
     "image": "http://localhost:3000/assests/hariov60.png"
   },{
